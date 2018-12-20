@@ -1,0 +1,4 @@
+<%= link_to @student.name, students_path %>
+<% @student.ducks.each do |duck| %>
+<%= link_to duck.name, duck%>
+<% end %>
